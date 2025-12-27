@@ -1,0 +1,9 @@
+# Service request
+Ur10eMoveitJoints joints_input
+geometry_msgs/Pose pick_pose
+geometry_msgs/Pose place_pose
+
+---
+# Service response
+#Ur10eTrajectory trajectories
+moveit_msgs/RobotTrajectory[] trajectories

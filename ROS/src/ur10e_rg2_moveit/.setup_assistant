@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ur10e_rg2_urdf
+    relative_path: urdf/ur10e_yt_gripper.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/ur10e_robot_rg2.srdf
+  CONFIG:
+    author_name: dung
+    author_email: archerenri17122003@gmail.com
+    generated_timestamp: 1736353410
